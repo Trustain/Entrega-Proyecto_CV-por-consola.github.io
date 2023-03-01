@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto_Final_CV</title>
+    <link rel="icon" type="imagen/x-icon" href="/Recursos/icono2.ico">
+    <link rel="stylesheet" type="text/CSS" href="/CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="fila1" class="row"></div>
+        <div id="fila2" class="row">
+            <div id="elemento21" class="col-1"></div>
+            <div id="elemento22" class="col">
+                <img id="foto_perfil" src="" alt="foto del usuario">
+            </div>
+            <div id="elemento23" class="col">
+                <p><span id="nombre"></span></p>
+                <p id="profesion">Fullstack Developer</p>
+            </div>
+        </div>
+        <div id="fila3" class="row">
+            <div id="elemento31" class="col-1"></div>
+            <div id="elemento32" class="col">
+                <div id="datosPersonales">
+                    <h2 id="DATOSPERSONALESencabezado">DATOS PERSONALES</h2>
+                    <p class="datosContacto" id="email"><i class="bi bi-envelope-at-fill icono"></i>&nbsp Email: <span id="correo"></span></p>
+                    <p class="datosContacto"><i class="bi bi-telephone-fill icono"></i>&nbsp Telefono: <span id="telefono"></span></p>
+                    <p class="datosContacto"><i class="bi bi-phone-fill icono"></i>&nbsp Celular: <span id="celular"></span></p>
+                    <p class="datosContacto"><i class="bi bi-house-door-fill icono"></i>&nbsp Dirección: <span id="direccion1"></span></p>
+                    <p class="datosContacto"><i class="bi bi-geo-alt-fill"></i>&nbsp &nbsp<span id="direccion2"></span></p>
+                    <p class="datosPersonales"><i class="bi bi-person-fill"></i>&nbsp &nbsp Edad: <span id="edad"></span></p>
+                    <p class="datosPersonales">&nbsp &nbsp &nbsp &nbsp Fecha Nacimiento: <span id="fechaNacimiento"></span></p>
+                    <p class="datosPersonales" style="display:none"><span id="nacionalidad"></span></p>
+                    <p class="datosPersonales" style="display:none"><span id="sexo"></span></p>
+                </div>
+                <div id="perfilProfesional">
+                    <h2>PERFIL PROFESIONAL</h2>
+                    <p class="Female" style="display:none">Responsable, proactiva, analítica y metódica. Enfoque diligente y comunicativo, capaz de trabajar tanto 
+                        en un equipo de trabajo como con el cliente; aportando mi visión técnica y general de los distintos componentes requeridos para que el cliente
+                        obtenga la solución tecnológica que necesita.</br></p>
+                    <p class="Male"> Responsable, proactivo, analítico y metódico. Enfoque diligente y comunicativo, capaz de trabajar tanto en un equipo de trabajo 
+                        como con el cliente; aportando mi visión técnica y general de los distintos componentes requeridos para que el cliente obtenga la solución
+                        tecnológica que necesita.</br></p>
+                </div>
+                <div id="programas">
+                    <a name="HABILIDADES"></a>
+                    <h2>HABILIDADES</h2>
+                    <table id="tabla">
+                        <tbody>
+                            <tr>
+                                <td>- FRONTEND</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="css" src="/Recursos/css-3.png" alt="imagen CSS" class="imagenProgramas">&nbsp CSS</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/100.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="html5" src="/Recursos/html-5.png" alt="imagen HTML" class="imagenProgramas">&nbsp HTML</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/100.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="JS" src="/Recursos/JS.png" alt="imagen JavaScript" class="imagenProgramas">&nbsp JS</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/90.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="bootstrap" src="/Recursos/bootstrap.png" alt="imagen Bootstrap" class="imagenProgramas">&nbsp BOOTSTRAP</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/100.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="react" src="/Recursos/react.png" alt="imagen React" class="imagenProgramas">&nbsp REACT</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/90.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr><td>&nbsp</td></tr>
+                            <tr>
+                                <td>- BACKEND</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="python" src="/Recursos/python.png" alt="imagen Phyton" class="imagenProgramas">&nbsp PYTHON</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/90.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="java" src="/Recursos/java.png" alt="imagen Java" class="imagenProgramas">&nbsp JAVA</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/80.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="php" src="/Recursos/php.png" alt="imagen PHP" class="imagenProgramas">&nbsp PHP</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/100.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="ruby" src="/Recursos/ruby.png" alt="imagen Ruby" class="imagenProgramas">&nbsp RUBY</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/80.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="laravel" src="/Recursos/laravel.png" alt="imagen Laravel" class="imagenProgramas">&nbsp LARAVEL</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/70.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp</td>
+                            </tr>
+                            <tr>
+                                <td>- DATABASE</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="sql" src="/Recursos/sql.png" alt="imagen SQL" class="imagenProgramas">&nbsp SQL</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/100.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="mysql" src="/Recursos/mysql.png" alt="imagen MySQL" class="imagenProgramas">&nbsp MYSQL</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/100.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="postgre" src="/Recursos/postgre.png" alt="imagen Postgre" class="imagenProgramas">&nbsp POSTGRE</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/90.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="mongoDB" src="/Recursos/mongoDB.png" alt="imagen mongoDB" class="imagenProgramas">&nbsp mongoDB</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/80.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="oracle" src="/Recursos/oracle.png" alt="imagen Oracle" class="imagenProgramas">&nbsp ORACLE</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/80.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp</td>
+                            </tr>
+                            <tr>
+                                <td>- TOOLS</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="vscode" src="/Recursos/vscode.png" alt="imagen VSCode" class="imagenProgramas">&nbsp VSCODE</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/100.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="git" src="/Recursos/git.png" alt="imagen GIT" class="imagenProgramas">&nbsp GIT</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/100.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp &nbsp<img id="nodeJS" src="/Recursos/nodeJS.png" alt="imagen NodeJS" class="imagenProgramas">&nbsp Node.JS</td>
+                                <td>&nbsp &nbsp<img src="/Recursos/90.png" alt="Barra de nivel" class="barraProgreso"></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="elemento33" class="col">
+                <div class="enlaces">
+                    <ul>
+                        <li><a class="links" href="#HABILIDADES">Habilidades</a></li>
+                        <li><a class="links" href="#COMPETENCIAS">Competencias</a></li>
+                        <li><a class="links" href="#FORMACION">Formación</a></li>
+                    </ul>
+                </div>
+
+                <div id="experienciaProfesional">
+                    <h2>EXPERIENCIA PROFESIONAL</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Puesto:</td>
+                                <td>Analista de Datos</td>
+                            </tr>
+                            <tr>
+                                <td>Empresa:</td>
+                                <td>DXC Technology</td>
+                            </tr>
+                            <tr>
+                                <td>Periodo:</td>
+                                <td>Enero 2021 - Noviembre 2021</td>
+                            </tr>
+                            <tr>
+                                <td>Modalidad: &nbsp &nbsp </td>
+                                <td>Remota, Jornada complea</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Responsabilidades</p>
+                    <ul>
+                        <li>Determinación de la relación estadística de los datos con un problema a resolver utilizando SQL y Python</li>
+                        <li>Análisis de datos para la obtención de nuevos conocimientos con el fin de mejorar la eficiencia de procesos y reduccion de costos y/o riesgos comerciales.</li>
+                        <li>Diseño, presentación y mantenimiento de tableros de datos para la gestión</li>
+                    </ul>
+                    <br>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Puesto:</td>
+                                <td>Desarrollador web</td>
+                            </tr>
+                            <tr>
+                                <td>Empresa:</td>
+                                <td>El Cronista</td>
+                            </tr>
+                            <tr>
+                                <td>Periodo:</td>
+                                <td>Enero 2022 - Diciembre 2022</td>
+                            </tr>
+                            <tr>
+                                <td>Modalidad: &nbsp &nbsp </td>
+                                <td>Remota, Jornada intermedia</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Responsabilidades</p>
+                    <ul>
+                        <li>Llevar a cabo tareas de análisis y desarrollo de software sobre los proyectos internos de la compañía con foco en productos digitales.</li>
+                        <li>Diseño, programación, implementación y mantenimiento de aplicaciones Web Front-end y Back-End.</li>
+                    </ul>
+                    <br>  
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Puesto:</td>
+                                <td>Desarrollador Back-End</td>
+                            </tr>
+                            <tr>
+                                <td>Empresa:</td>
+                                <td>Despegar</td>
+                            </tr>
+                            <tr>
+                                <td>Periodo:</td>
+                                <td>Septiembre 2022 - Actualidad</td>
+                            </tr>
+                            <tr>
+                                <td>Modalidad: &nbsp &nbsp </td>
+                                <td>Remota, Jornada intermedia</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Responsabilidades</p>
+                    <ul>
+                        <li>Desarrollo de modelos para optimizar y dar soporte para la toma de decisiones en los equipos de Revenue y Marketing.</li>
+                        <li>Diseño y construcción de KPIs de seguimiento para evaluar performance.</li>
+                        <li>Diseño de procesos para estandarizar la toma de decisiones en función de datos.</li>
+                        <li>Colaboració en el diseño, metodología, implementación y seguimiento de proyectos específicos para cada producto.</li>
+                        <li>Análisis para cambios y/o mejoras metodológicas a procesos críticos del área comercial.</li>
+                    </ul>
+                    <br>                 
+                </div>
+
+                <div id="competencias">
+                    <a name="COMPETENCIAS"></a>
+                    <h2>COMPETENCIAS</h2>
+                    <ul>
+                        <li>Desarrollo de interfaz y arquitectura de un sitio web</li>
+                        <li>Capacidad para gestionar, estructurar y consultar un Sistema de Gestión de Bases de Datos</li>
+                        <li>Manejo de las técnicas de depuración de datos</li>
+                        <li>Creación de servidores y base de datos para su correcta operatividad.</li>
+                        <li>Habilidad en el trabajo en equipo, destacandose la comunicación, organización, gestión del tiempo y creatividad.</li>
+                        <li>Resolucion de problemas, pensamiento global y trabajo bajo presión.</li>
+                        <li>Administración de proyectos complejos y asesoramiento a departamentos de área tecnológica.</li>
+                    </ul>
+                    <br>
+                </div>
+
+                <div id="formacion">
+                    <a name="FORMACION"></a>
+                    <h2>FORMACIÓN</h2>
+                    <ul>
+                        <li>Analista de Sistemas. Universidad Nacional de la Patagonia Austral. 2019</li>
+                        <li>Diplomatura Superior en Ciencia de Datos Aplicada e Inteligencia Artificial. Universidad Teconológica Nacional. 2020</li>
+                        <li>Ciencia de Datos para el diseño y gestión de políticas publicas. CEPAL, Naciones Unidas. Sede Argentina, Buenos Aires.2020</li>
+                        <li>Professional Front End Developer. Universidad Teconológica Nacional, Facultad Buenos Aires.2021</li>
+                        <li>Curso de REACT.JS DEVELOPER. Educacion IT.2022</li>
+                        <li>Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL. Udemy. 2022</li>
+                        <li>Base de Datos con Postgresql. EDteam.2022</li>
+                        <li>1ª Etapa del curso #SeProgramar del trayecto formativo INTI en el marco del Argentina Programa 4.0. 2022</li>
+                        <li>Curso de Laravel. Edutin Academy.2023</li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+        <div id="fila4" class="row"></div>
+    </div>
+    <script src="/JS/funcionalidades.js"></script>
+</body>
+</html>
